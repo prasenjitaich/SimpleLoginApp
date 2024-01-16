@@ -23,15 +23,14 @@ create a new user. New users can then log in/log out.
 
 4. You can configure the DB for local/production if you wish in `settings.local.py/production.py`
 
-5. You can configure the Email smtp settings in `settings.settings.py`
 
-6. If you are using a fresh database in local, execute these commands.
+5. If you are using a fresh database in local, execute these commands.
 
    `python manage.py makemigrations `
 
    `python manage.py migrate`
 
-7. Run this command and your django app should be running on port `8000`
+6. Run this command and your django app should be running on port `8000`
 
    `python manage.py runserver`
 
